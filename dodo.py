@@ -7,6 +7,10 @@ speaking = "\n"*7+" "*37+"~   ~\n"+" "*37+"o   o\n"+" "*39+"'\n"+" "*37+"  O  "+
 confused = "\n"*6+" "*37+"  ?\n"+" "*37+"~   ~\n"+" "*37+"o   o\n"+" "*39+"'\n"+" "*37+"  _  "+"\n"*8
 gone = "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 
+os.system("clear")
+print(speaking)
+os.system("espeak -v+f5 'hello'")
+
 next = normal
 
 r = sr.Recognizer()
